@@ -1,0 +1,8 @@
+.hero {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+}
+
+.hero-img {
+  max-width: 300px;
+}
