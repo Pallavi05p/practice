@@ -73,9 +73,9 @@
   </div>
 </section>
 <!-- ABOUT SECTION -->
-<section id="about">
-  <app-about></app-about> <!-- Render About component here -->
-</section>
-<section id="contact">
-  <app-contact></app-contact>
-</section>
+<nav>
+  <a routerLink="/about">About</a>
+  <a routerLink="/contact">Contact</a>
+</nav>
+
+<router-outlet></router-outlet>
